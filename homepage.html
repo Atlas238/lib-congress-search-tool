@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/css/uikit.min.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"/>
+        <link rel="stylesheet" href="assets/css/style.css"/>
+    </head>
+    <body>
+        <header id="header">
+            <h1>Library of Congress Search Tool</h1>
+        </header>
+        <main>
+
+            <div  class="container uk-flex uk-flex-center">
+                <nav id="searchContainer" class="uk-navbar-container" uk-navbar>
+                    <div class="uk-navbar-left">
+                
+                        <div class="uk-navbar-item uk-width-1-1">
+                            <form class="uk-search uk-search-navbar">
+                                <span uk-search-icon></span>
+                                <input id="searchInput" class="uk-search-input" type="search" placeholder="Search">
+                            </form>
+                        </div>
+                
+                    </div>
+                </nav>
+            </div>
+
+            <div class="uk-inline uk-flex uk-flex-center">
+                <button class="uk-button uk-button-default" type="button">Format</button>
+                <div uk-dropdown="pos: bottom-justify">
+                    <ul class="uk-nav uk-dropdown-nav">
+                        <li><a id="maps" href="#">Maps</a></li>
+                        <li><a id="audio" href="#">Audio</a></li>
+                        <li><a id="photos" href="#">Photos</a></li>
+                        <li><a id="audio" href="#">Manuscripts</a></li>
+                        <li><a id="newspapers" href="#">Newspapers</a></li>
+                        <li><a id="fimandVideo" href="#">Film and Video</a></li>
+                        <li><a id="notatedMusic" href="#">Notated Music</a></li>
+                        <li><a id="websites" href="#">Websites</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </main>
+        
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.0/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</html>
