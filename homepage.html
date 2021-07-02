@@ -31,16 +31,18 @@
             <div class="uk-inline uk-flex uk-flex-center">
                 <button class="uk-button uk-button-default" type="button">Format</button>
                 <div uk-dropdown="pos: bottom-justify">
-                    <ul class="uk-nav uk-dropdown-nav">
-                        <li><a id="maps" href="#">Maps</a></li>
-                        <li><a id="audio" href="#">Audio</a></li>
-                        <li><a id="photos" href="#">Photos</a></li>
-                        <li><a id="audio" href="#">Manuscripts</a></li>
-                        <li><a id="newspapers" href="#">Newspapers</a></li>
-                        <li><a id="fimandVideo" href="#">Film and Video</a></li>
-                        <li><a id="notatedMusic" href="#">Notated Music</a></li>
-                        <li><a id="websites" href="#">Websites</a></li>
-                    </ul>
+                    <form>
+                        <ul id="dropdown" class="uk-nav uk-dropdown-nav">
+                            <li><input id="maps" type="radio" name="format" value="maps"></input> <label for="maps">Maps</label> </li>
+                            <li><input id="audio" type="radio" name="format" value="audio"></input> <label for="audio">Audio</label> </li>
+                            <li><input id="photos" type="radio" name="format" value="photos"></input> <label for="photos">Photos</label> </li>
+                            <li><input id="manuscripts" type="radio" name="format" value="manuscripts"></input> <label for="manuscripts">Manuscripts</label> </li>
+                            <li><input id="newspapers" type="radio" name="format"  value="newspapers"></input> <label for="newspapers">Newspapers</label> </li>
+                            <li><input id="filmandVideo" type="radio" name="format" value="film-and-video"></input> <label for="filmandVideo">Film and Video</label> </li>
+                            <li><input id="notatedMusic" type="radio" name="format" value="notated-music"></input> <label for="notatedMusic">Notated Music</label> </li>
+                            <li><input id="websites" type="radio" name="format" value="websites"></input> <label for="websites">Websites</label> </li>
+                        </ul>
+                    </form>
                 </div>
             </div>
 

@@ -9,3 +9,10 @@
 #header {
     text-align: center;
 }
+
+#dropdown li input[type="radio"] {
+    opacity:0;
+}
+#dropdown li input:checked ~ label {
+    font-weight: bolder;
+}
