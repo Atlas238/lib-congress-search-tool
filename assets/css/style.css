@@ -1,0 +1,11 @@
+* {
+    margin-top: 1em;
+}
+
+#searchContainer {
+    height:fit-content;
+}
+
+#header {
+    text-align: center;
+}
